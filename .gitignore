@@ -1,5 +1,45 @@
+# ── Python ────────────────────────────────────────
 .venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Data & Models (too large for GitHub) ─────────
+data/
+*.pdf
+*.faiss
+*.pkl
+
+# ── Environment variables ─────────────────────────
 .env
-data/*.pdf
+.env.local
+.env.*.local
+
+# ── React / Node ──────────────────────────────────
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# ── OS files ──────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
